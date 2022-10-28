@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TESTE</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<style>
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+.menu {display: none}
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/wp2972537.jpg");
+  min-height: 90%;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a href="#" class="w3-bar-item w3-button">HOME</a>
+    <a href="#menu" class="w3-bar-item w3-button">MATERIAS</a>
+    <a href="#about" class="w3-bar-item w3-button">SOBRE</a>
+    <a href="#myMap" class="w3-bar-item w3-button">n sei</a>
+  </div>
+</div>
+  
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-padding">
+    <span class="w3-tag w3-xlarge">Alta site com a matéria deste módulo</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white w3-hide-small" style="font-size:100px">MATÉRIAS DA DISCIPLINA<br>REDES DE COMUNICAÇÃO</span>
+    <span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:60px"><b>thin<br>CRUST PIZZA</b></span>
+    <p><a href="#menu" class="w3-button w3-xxlarge w3-black">Siga a ver essas notas!!</a></p>
+  </div>
+</header>
+
+<!-- Menu Container -->
+<div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="menu">
+  <div class="w3-content">
+  
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Matérias</h1>
+    <div class="w3-row w3-center w3-border w3-border-dark-grey">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Pizza');" id="myLink">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">MOD 1</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Pasta');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">MOD 2</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Starter');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">MOD 3</div>
+      </a>
+    </div>
+
+    <div id="Pizza" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Difusão ponto-a-ponto</b> <span class="w3-right w3-tag w3-dark-grey w3-round"></span></h1>
+      <p class="w3-text-grey">Na Difusão, um dispositivo emite informação para um conjunto de dispositivos recetores, quer seja através do espaço (radiodifusão) quer seja através de um cabo (redes locais). Na transmissão de ponto a ponto, esta informação é mandada de dispositivo (ponto) para um outro dispositivo (ponto), e assim, o primeiro recetor da informação pode não ser o recetor final mas um ponto de passagem da mensagem.</p>
+      <hr>
+   
+      <h1><b>Transmissão broadband e baseband</b> <span class="w3-right w3-tag w3-dark-grey w3-round"></span></h1>
+      <p class="w3-text-grey">Transmissão baseband trata-se de uma emissão de sinais onde o sinal transmitido usa toda a capacidade de comunicação do canal mas este sinal é apenas 1; Na Transmissão broadband um simples cabo pode transportar múltiplos canais de informação, onde esta informação é analógica, onde este permite vários canais ao mesmo tempo, todos com frequências diferentes.</p>
+      <hr>
+      
+      <h1><b>"Sem fios"</b> <span class="w3-right w3-tag w3-dark-grey w3-round"></span></h1>
+      <p class="w3-text-grey">Infravermelhos precisam do transmissor e o recetor na mesma linha de sinal, caso contrário a comunicação será perdida. Esses tipos de sinais podem funcionar em distancias curtas até 30m. As micro-ondas são caracterizadas pela ausência de obstruções entre os pontos de comunicação e são utilizadas para transmissão em áreas metropolitanas e redes de longa distância.</p>
+      <hr>
+
+      <h1><b>Transmissões Síncronas e Assíncronas</b> <span class="w3-right w3-tag w3-dark-grey w3-round"></span></h1>
+      <p class="w3-text-grey">A diferença entre transmissões síncronas e assíncronas é que as transmissões síncronas usam um relógio síncrono para transferir dados, enquanto as transmissões assíncronas usam controle de fluxo em vez de usar um relógio síncrono para transferir dados. Em geral, as transmissões síncronas são mais confiáveis e eficientes do que as assíncronas.</p>
+      <hr>
+
+      <h1><b>"Analógico Digital"</b> <span class="w3-tag w3-red w3-round"></span><span class="w3-right w3-tag w3-dark-grey w3-round"></span></h1>
+      <p class="w3-text-grey">Sinal analógico: Um sinal analógico é um tipo de sinal contínuo com variação de tempo e são classificados em sinais compostos e simples. Um tipo simples de sinal analógico nada mais é do que uma onda senoidal e que não pode ser decomposta, enquanto um sinal analógico do tipo composto pode ser decomposto em várias ondas senoidais; Sinal Digital: Sinal Digital é uma sequência discreta (descontínua) no tempo e em amplitude. Isso significa que um sinal digital só é definido para determinados instantes de tempo, e que o conjunto de valores que pode assumir é finito.</p>
+      <hr>
+
+      <h1><b>"Compressão de dados"</b> <span class="w3-tag w3-grey w3-round"></span><span class="w3-right w3-tag w3-dark-grey w3-round"></span></h1>
+      <p class="w3-text-grey">Compressão de dados sem perdas:  é a compressão de alguns dados onde no final, este “objeto” não perde dados originais (Exemplo== programas de computador, planilhas eletrónicas.); Compressão de dados com perdas: neste caso, alguns dados são perdidos na compressão, sendo que estes quase não fazem diferença para o “objeto” e as suas propriedades (Exemplo== fotos mandadas para as redes sociais, estes perdem sempre um pouco de qualidade para o tamanho deste ser mais pequeno e acessível à plataforma.)</p>
+    </div>
+
+    <div id="Pasta" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Lasagna</b> <span class="w3-tag w3-grey w3-round">Popular</span> <span class="w3-right w3-tag w3-dark-grey w3-round"></span></h1>
+      <p class="w3-text-grey">Special sauce, mozzarella, parmesan, ground beef</p>
+      <hr>
+   
+      <h1><b>Ravioli</b> <span class="w3-right w3-tag w3-dark-grey w3-round"></span></h1>
+      <p class="w3-text-grey">Ravioli filled with cheese</p>
+      <hr>
+      
+      <h1><b>Spaghetti Classica</b> <span class="w3-right w3-tag w3-dark-grey w3-round"></span></h1>
+      <p class="w3-text-grey">Fresh tomatoes, onions, ground beef</p>
+      <hr>
+
+      <h1><b>Seafood pasta</b> <span class="w3-right w3-tag w3-dark-grey w3-round"></span></h1>
+      <p class="w3-text-grey">Salmon, shrimp, lobster, garlic</p>
+    </div>
+
+
+    <div id="Starter" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Today's Soup</b> <span class="w3-tag w3-grey w3-round">Seasonal</span><span class="w3-right w3-tag w3-dark-grey w3-round">$5.50</span></h1>
+      <p class="w3-text-grey">Ask the waiter</p>
+      <hr>
+   
+      <h1><b>Bruschetta</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$8.50</span></h1>
+      <p class="w3-text-grey">Bread with pesto, tomatoes, onion, garlic</p>
+      <hr>
+      
+      <h1><b>Garlic bread</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$9.50</span></h1>
+      <p class="w3-text-grey">Grilled ciabatta, garlic butter, onions</p>
+      <hr>
+      
+      <h1><b>Tomozzarella</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
+      <p class="w3-text-grey">Tomatoes and mozzarella</p>
+    </div><br>
+
+  </div>
+</div>
+
+<!-- About Container -->
+<div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="about">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">SOBRE</h1>
+    <p>Este Site foi feito com um template (infelizmente) e vai ter as matérias resumidas dos primeiros 3 módulos :)</p>
+    <p><strong>Pedro Santos  - </strong>Número 17 do 11ºH </p>
+    <p>ISTO AINDA VAI TER UPDATES :))))))</p>
+    
+    <h1><b>Data de update (UPDATE no.1)</b></h1>
+    
+    <div class="w3-row">
+      <div class="w3-col s6">
+        <p>28/10/2022</p>
+        <p>Sexta Feira</p>
+        
+      </div>
+      
+    </div>
+    
+  </div>
+</div>
+
+<!-- Image of location/map -->
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;" id="myMap">
+
+<!-- Contact -->
+<div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">N SEI XD</h1>
+    <p>Esta parte está aqui porque sim :D</p>
+    <p><span class="w3-tag"></span>Isto é a parte do website em que não tem nada só humor :V.</p>
+    <p class="w3-xxlarge"><strong>CALMA</strong> Estás a dar scroll down para nada amigo, o que importa está para cima ^</p>
+    <p>Pronto ok vai lá okdfsgnvdsfjaysgs</p>
+    <p>Ok stor já pode avaliar o trabalho xDDDDD</p>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
+  <p>Obrigado <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-red";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
